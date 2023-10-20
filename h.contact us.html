@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="h.home.css">
+</head>
+<body>
+    <header>
+        <h1>CONTACT US</h1>
+    </header>
+    <img src="h contact.jpeg" height=450 width=1350></img>
+     <center>
+    <section class="main-content">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need assistance, please don't hesitate to contact us:</p>
+
+        <address>
+            <p>Email: <a href="mailto:contact@onlineeducation.com">onlineeducation@gmail.com</a></p>
+            <p>Phone: +1-432-765-9801</p>
+            <p>Address: 24,Education Street, Coimbatore,tamilnadu</p>
+        </address>
+
+        <h2>Contact Form</h2>
+        <form action="submit_contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+      </center>
+    </section>
+</body>
+</html>
